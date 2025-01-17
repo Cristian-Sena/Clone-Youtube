@@ -1,0 +1,48 @@
+/*Resetando margim e padding da pagina*/
+*{
+    margin: 0;
+    padding: 0;  
+}
+
+body{
+    width: 1440px;
+    height: 1024px;  
+}
+
+/* estilizando menu com display flex */
+menu{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 24px;
+    padding-left: 24px;
+    height: 56px;
+    align-items: center;
+} 
+
+/* estilizando main com display flex com direciton column, e com position relative para aplicar top e left*/
+main{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 746px;
+    width: 952px;
+    gap: 16px;
+    left: 75px;
+    top: 30px;
+}
+
+/* estilizando com display flex com direction row a seção dentro do main*/
+section{
+    display: flex;
+    justify-content: space-between;
+    width: 902px;
+    height: 42px;
+    gap: 42px;
+    align-items: center;
+}
+
+/* estilizando  aside a parte lateral do main, com position absolute*/
+aside{
+    position: absolute;
+    left: 980px;
+}
